@@ -4,8 +4,8 @@
 #include "randNumGen.h"
 
 int main() {
-	int x = getRandomNumber(-1000000,1000000);
-	printf("%d\n", x);
+	long long int x = getRandomNumber(-1000000,1000000);
+	printf("%lld\n", x);
 
     return 0;
 }
